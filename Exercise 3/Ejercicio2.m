@@ -1,0 +1,12 @@
+clc
+clear
+x=[-2:2];
+%plot(x,funcion(x,1),'g',x,funcion(x,2),'b',x,funcion(x,3),'y',x,funcion(x,4),'r');
+subplot(2,2,1);
+plot(x,funcion(x,1),'g');
+subplot(2,2,2);
+plot(x,funcion(x,2),'b');
+subplot(2,2,3);
+plot(x,funcion(x,3),'y');
+subplot(2,2,4);
+plot(x,funcion(x,4),'r');
